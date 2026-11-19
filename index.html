@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador de archivos TXT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Comparador de archivos TXT</h2>
+
+        <div class="archivos">
+            <div>
+                <label>Archivo 1</label>
+                <input type="file" id="archivo1" accept=".txt">
+            </div>
+
+            <div>
+                <label>Archivo 2</label>
+                <input type="file" id="archivo2" accept=".txt">
+            </div>
+        </div>
+
+        <button id="btnComparar">Comparar archivos</button>
+        <button id="btnRefrescar" type="button">Refrescar</button>
+
+        <div id="resultado"></div>
+
+        <button id="btnDescargar" hidden>
+            Descargar diferencias
+        </button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+<!--<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comparador de archivos de texto</title>
+
+
+
+</head>
+
+<link rel="stylesheet"href="css.style.css">
+
+<body>
+<main>
+  <h1>Comparador de archivos de texto</h1>
+
+  <div class="paneles">
+    <div class="panel">
+      <label for="archivo1">Archivo original</label>
+      <input type="file" id="archivo1" accept=".txt,text/plain">
+      <textarea id="texto1" placeholder="Pega texto o carga un archivo .txt"></textarea>
+    </div>
+    <div class="panel">
+      <label for="archivo2">Archivo modificado</label>
+      <input type="file" id="archivo2" accept=".txt,text/plain">
+      <textarea id="texto2" placeholder="Pega texto o carga un archivo .txt"></textarea>
+    </div>
+  </div>
+
+  <div class="opciones">
+    <label><input type="checkbox" id="ignorarMayus"> Ignorar mayúsculas</label>
+    <label><input type="checkbox" id="ignorarEspacios"> Ignorar espacios sobrantes</label>
+    <button id="comparar">Comparar</button>
+  </div>
+
+  <p id="resumen" aria-live="polite"></p>
+  <div id="resultado"></div>
+</main>
+
+<script src="index.js"></script>
+
+</body>
+</html>-->
